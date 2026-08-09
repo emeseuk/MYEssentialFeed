@@ -12,6 +12,7 @@
 		E6517D8B2DAC0C440007EE5F /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6517D8A2DAC0C440007EE5F /* EssentialFeedTests.swift */; };
 		E6517D8C2DAC0C440007EE5F /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = E6517D7E2DAC0C440007EE5F /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6517D962DAC0C690007EE5F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6517D952DAC0C690007EE5F /* FeedItem.swift */; };
+		E6517D982DAC0D370007EE5F /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6517D972DAC0D370007EE5F /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		E6517D852DAC0C440007EE5F /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6517D8A2DAC0C440007EE5F /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		E6517D952DAC0C690007EE5F /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		E6517D972DAC0D370007EE5F /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,7 @@
 			children = (
 				E6517D7E2DAC0C440007EE5F /* EssentialFeed.h */,
 				E6517D7F2DAC0C440007EE5F /* EssentialFeed.docc */,
-				E6517D952DAC0C690007EE5F /* FeedItem.swift */,
+				E6517D992DAC0E110007EE5F /* Feed feature */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -86,6 +88,15 @@
 				E6517D8A2DAC0C440007EE5F /* EssentialFeedTests.swift */,
 			);
 			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		E6517D992DAC0E110007EE5F /* Feed feature */ = {
+			isa = PBXGroup;
+			children = (
+				E6517D972DAC0D370007EE5F /* FeedLoader.swift */,
+				E6517D952DAC0C690007EE5F /* FeedItem.swift */,
+			);
+			path = "Feed feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6517D982DAC0D370007EE5F /* FeedLoader.swift in Sources */,
 				E6517D962DAC0C690007EE5F /* FeedItem.swift in Sources */,
 				E6517D802DAC0C440007EE5F /* EssentialFeed.docc in Sources */,
 			);
