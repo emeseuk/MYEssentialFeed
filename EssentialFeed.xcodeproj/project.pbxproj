@@ -16,6 +16,7 @@
 		E690DAE8303AFCD000F83A2A /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690DAE7303AFCD000F83A2A /* RemoteFeedLoaderTests.swift */; };
 		E690DAEB303AFD3000F83A2A /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690DAEA303AFD3000F83A2A /* RemoteFeedLoader.swift */; };
 		E690DAED304C19C800F83A2A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690DAEC304C19C800F83A2A /* HTTPClient.swift */; };
+		E690DAEF304C1AD800F83A2A /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690DAEE304C1AD800F83A2A /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		E690DAE7303AFCD000F83A2A /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		E690DAEA303AFD3000F83A2A /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		E690DAEC304C19C800F83A2A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E690DAEE304C1AD800F83A2A /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				E690DAEA303AFD3000F83A2A /* RemoteFeedLoader.swift */,
 				E690DAEC304C19C800F83A2A /* HTTPClient.swift */,
+				E690DAEE304C1AD800F83A2A /* FeedItemsMapper.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				E690DAEB303AFD3000F83A2A /* RemoteFeedLoader.swift in Sources */,
 				E690DAED304C19C800F83A2A /* HTTPClient.swift in Sources */,
 				E6517D982DAC0D370007EE5F /* FeedLoader.swift in Sources */,
+				E690DAEF304C1AD800F83A2A /* FeedItemsMapper.swift in Sources */,
 				E6517D962DAC0C690007EE5F /* FeedItem.swift in Sources */,
 				E6517D802DAC0C440007EE5F /* EssentialFeed.docc in Sources */,
 			);
